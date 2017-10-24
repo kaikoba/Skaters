@@ -1,0 +1,6 @@
+framework module Pods_SkatersUITests {
+  umbrella header "Pods-SkatersUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

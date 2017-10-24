@@ -1,0 +1,60 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FBSDKCoreKit (4.22.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.22.0):
+    - FBSDKCoreKit
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - NCMB (2.3.3):
+    - FBSDKLoginKit
+
+DEPENDENCIES:
+  - FacebookCore
+  - FacebookLogin
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - GoogleMaps
+  - GooglePlaces
+  - NCMB (from `https://github.com/takuyama29/ncmb_ios-2.3.3`)
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/takuyama29/ncmb_ios-2.3.3
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: b0ffa8a5c8ed1d627c7c91a107d22c6c925f233f
+    :git: https://github.com/takuyama29/ncmb_ios-2.3.3
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FBSDKCoreKit: c693bad19feb225469eeff14452ba364522ee48b
+  FBSDKLoginKit: 1fa529fc622d7b32ebeaffbecd377180833c6d30
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  NCMB: 98e2fe41fc810f9bfb2ff13694a363a516ad7dfa
+
+PODFILE CHECKSUM: 62757c45efaeea748ead03e566b97fda19fc6bdb
+
+COCOAPODS: 1.2.1
